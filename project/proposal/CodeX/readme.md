@@ -16,25 +16,13 @@
     <td>A20EC0174</td>
   </tr>
   <tr>
-    <td>CHONG KAI ZHE</td>
-    <td>A20EC0186</td>
-  </tr>
-  <tr>
     <td>NAYLI NABIHAH BINTI JASNI</td>
     <td>A20EC0105</td>
-  </tr>
-  <tr>
-    <td>NUR IRDINA ALIAH BINTI ABDUL WAHAB</td>
-    <td>A20EC0115</td>
-  </tr>
-  <tr>
-    <td>MUHAMMAD NAQUIB BIN ZAKARIA</td>
-    <td>A20BE0161</td>
   </tr>
 </table>
 
 ## Contents📝
-- 📑[Report](https://github.com/drshahizan/special-topic-data-engineering/blob/466df66387cc9c3ae17d9838c5591e114002c9b9/project/proposal/CodeX/PROPOSAL_CodeX.md)
+- 📑[Proposal](https://github.com/drshahizan/special-topic-data-engineering/blob/main/project/proposal/CodeX/PROPOSAL_CodeX.md)
 
 
 

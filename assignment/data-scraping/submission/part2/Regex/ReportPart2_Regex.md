@@ -213,40 +213,46 @@ One of the most important steps in performing the web scraping process is select
     <tr>
         <td>Beautiful Soup</td>
         <td>
-            <li>Good for pulling data out of HTML and XML files.</li>
             <li>Simple and easy to learn.</li>
+            <li>Good for small to medium-scale scraping tasks</li>
+            <li>Good for pulling data out of HTML and XML files.</li>
             <li>Can be used with other libraries, such as Requests and Pandas.</li>
         </td>
         <td>
-            <li>Cannot handle dynamic or interactive web pages.</li>
+\           <li>Slower compared to Scrapy</li>
             <li>Unable to execute JavaScript Code.</li>
+            <li>Cannot handle dynamic or interactive web pages.</li>
             <li>Not efficient for large-scale web scraping projects.</li>        
         </td>
     </tr>
     <tr>
         <td>Scrapy</td>
         <td>
+            <li>Faster than other existing scraping libraries</li>    
+            <li>Provides pipelines for data processing and storage</li>
             <li>Supports middleware, extensions, proxies, and more.</li>
             <li>Efficient and scalable for large-scale web scraping projects.</li>
-            <li>Faster than other existing scraping libraries</li>          
         </td>
         <td>
             <li>Require longer to learn.</li>
             <li>Requires more configuration.</li>
-            <li>Doesn’t handle JavaScript by default.</li>          
+            <li>Doesn’t handle JavaScript by default.</li> 
+            <li>Steeper learning curve compared to Beautiful Soup</li>
         </td>
     </tr>
     <tr>
         <td>Selenium</td>
         <td>
-            <li>Can handle JavaScript and other dynamic web page elements.</li>
+            <li>Provides visual feedback during scraping</li>
+            <li>Can easily handle AJAX and PJAX requests.</li>   
             <li>Can automate user interactions with a web page.</li>
-            <li>Can easily handle AJAX and PJAX requests.</li>          
+            <li>Can handle JavaScript and other dynamic web page elements.</li>
         </td>
         <td>
-            <li>Require more skills than Beautiful Soup.</li>
+            <li>Requires installing a web driver.</li>   
             <li>Slower than Beautiful Soup and Scrapy.</li>
-            <li>Requires installing a web driver.</li>              
+            <li>Require more skills than Beautiful Soup.</li>
+            <li>Slower compared to Beautiful Soup and Scrapy</li>
         </td>
     </tr>
 </table>

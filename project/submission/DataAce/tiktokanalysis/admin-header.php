@@ -1,7 +1,4 @@
-<?php 
-session_start();
-include 'session-admin.php';
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -48,7 +45,7 @@ include 'session-admin.php';
   <header id="header" class="header fixed-top d-flex align-items-center">
 
     <div class="d-flex align-items-center justify-content-between">
-      <a href="index.html" class="logo d-flex align-items-center">
+      <a href="admin.php" class="logo d-flex align-items-center">
         <img src="assets/img/logo.png" alt="">
         <span class="d-none d-lg-block">TikTokify</span>
       </a>
@@ -82,31 +79,32 @@ include 'session-admin.php';
   <ul class="sidebar-nav" id="sidebar-nav">
 
   <li class="nav-item">
-    <a class="nav-link " href="dashboard.php">
+    <a class="nav-link collapsed" href="dashboard-admin.php">
       <i class="bi bi-grid"></i>
       <span>Dashboard</span>
     </a>
   </li>
 
-  <!-- <li class="nav-item">
-    <a class="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">
-      <i class="bi bi-layout-text-window-reverse"></i><span>Tables</span><i class="bi bi-chevron-down ms-auto"></i>
+  <li class="nav-item">
+    <a class="nav-link collapsed" href="tiktok-datatable.php">
+      <i class="bi bi-grid"></i>
+      <span>Tiktok Videos Data Table</span>
     </a>
-    <ul id="tables-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-      <li>
-        <a href="student-info.php">
-          <i class="bi bi-circle"></i><span>Student Information</span>
-        </a>
-      </li>
-    </ul>
-  </li> -->
+  </li>
 
   <li class="nav-item">
     <a class="nav-link collapsed" href="profile.php">
       <i class="bi bi-card-list"></i>
       <span>User Profile</span>
     </a>
-  </li><!-- End Register Page Nav -->
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link collapsed" href="users.php">
+      <i class="bi bi-card-list"></i>
+      <span>Manage User</span>
+    </a>
+  </li>
 
 </ul>
 

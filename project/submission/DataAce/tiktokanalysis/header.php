@@ -44,7 +44,7 @@
   <header id="header" class="header fixed-top d-flex align-items-center">
 
     <div class="d-flex align-items-center justify-content-between">
-      <a href="index.html" class="logo d-flex align-items-center">
+      <a href="dashboard.php" class="logo d-flex align-items-center">
         <img src="assets/img/logo.png" alt="">
         <span class="d-none d-lg-block">TikTokify</span>
       </a>
@@ -53,20 +53,15 @@
 
     <nav class="header-nav ms-auto">
       <ul class="d-flex align-items-center">
-
-        <li class="nav-item dropdown">
-            <li>
-              <a class="dropdown-item d-flex align-items-center" href="#">
-                <i class="bi bi-box-arrow-right"></i>
-                <span>Sign Out</span>
-              </a>
-            </li>
-
-          </ul><!-- End Profile Dropdown Items -->
-        </li><!-- End Profile Nav -->
-
+        <li class="nav-item dropdown" style="margin-bottom: 5px;">
+          <a class="dropdown-item d-flex align-items-center" href="logout.php">
+            <i class="bi bi-box-arrow-right-fill"></i> Sign Out
+          </a>
+        </li>
       </ul>
-    </nav><!-- End Icons Navigation -->
+</nav><!-- End Icons Navigation -->
+
+</nav><!-- End Icons Navigation -->
 
   </header><!-- End Header -->
 
@@ -96,6 +91,13 @@
       </li>
     </ul>
   </li> -->
+
+  <li class="nav-item">
+    <a class="nav-link " href="tiktok-datatable.php">
+      <i class="bi bi-grid"></i>
+      <span>Table</span>
+    </a>
+  </li>
 
   <li class="nav-item">
     <a class="nav-link collapsed" href="profile.php">

@@ -75,17 +75,21 @@ Launch data factory.
 <br>
 
 ### 9. Create Link Service 
+In this step, you create a link service in Azure Data Factory. A link service represents a connection to an external data store. It defines the properties and credentials required to establish a connection to the data source. Link services are used to establish connectivity with various data sources and allow data integration pipelines to access and interact with those data sources.
 
 <img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-integration/submission/StaticIP/Images/link%20service.jpg">
 
 <br>
 
 ### 10. Create Dataset 
+After creating the link service, you need to create a dataset in Azure Data Factory. A dataset represents a named view of data in a data store. It defines the location, structure, and other metadata about the data you want to process. In this step, you create a dataset that specifies the location and format of the data you want to ingest or process.
+
 <img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-integration/submission/StaticIP/Images/create%20dataset.jpg">
 
 <br>
 
 ### 11. Create Blob to SQL Pipeline 
+Once the link service and dataset are created, you can create a pipeline in Azure Data Factory to orchestrate the movement and transformation of data from a Blob storage to a SQL database.
 <img width="960" alt="image" src="https://github.com/drshahizan/special-topic-data-engineering/blob/main/assignment/data-integration/submission/StaticIP/Images/blob%20to%20sql.jpg">
 
 <br>

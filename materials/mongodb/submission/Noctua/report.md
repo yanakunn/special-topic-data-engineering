@@ -41,8 +41,7 @@ The key functionalities of the system are as follows:
 3. **Update reviews**: Users can update their particular reviews added.
 4. **Delete reviews**: Users can delete their reviews.
 
-## Implementation: 
-*Explain the step-by-step process of developing the system, including the CRUD operations, data preprocessing, and analysis.*
+## Implementation
 
 ### Required Software
 Some of the software that need to be install are as follows:
@@ -131,6 +130,10 @@ net start MongoDB
 3. **Update posts and reviews**: Admin can update posts, all user can update reviews.
 4. **Delete posts and reviews**: Admin can delete posts, all user can delete reviews.
 
+### Data Processing and Analysis
+1. Write python code to perform data cleaning, transformation, and feature engineering and insert the cleaned data into MongoDB database
+2. Perform statistical analysis and create dashboard, conveniently using MongoDB Atlas features.
+
 ## Web Interface: 
 1. This is the login page where user can login and create review.
 <p align="center">
@@ -176,6 +179,11 @@ net start MongoDB
 4. **Validation** - Successfully store data in MongoDB.
 <p align="center">
   <img src="images/mongodbbooks.png" alt="Centered Image">
+</p>
+
+## System Architecture
+<p align="center">
+  <img src="images/aaaa.png" alt="Centered Image">
 </p>
 
 ## Conclusion: 
